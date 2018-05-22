@@ -1,12 +1,11 @@
 let katzDeliLine = [];
 
 var count = 0;
-let numberLine = [];
 
 function takeANumber(katzDeliLine) {
   count++;
-  numberLine.push(count);
-  return `Welcome, you are number ${count} ${numberLine}`;
+  katzDeliLine.push(count);
+  return `Welcome, you are number ${count}`;
 }
 
 // return the person's ticket number
