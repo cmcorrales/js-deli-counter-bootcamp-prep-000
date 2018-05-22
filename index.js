@@ -1,17 +1,20 @@
 let katzDeliLine = [];
 
 let count = 0;
+let numberLine = [];
 
 function takeANumber(katzDeliLine) {
   count++;
+  numberLine.push(count);
   return `Welcome, you are number ${count}`;
 }
 
+// return the person's ticket number
 function nowServing(katzDeliLine) {
   if(katzDeliLine.length === 0) {
     return "There is nobody waiting to be served!"
   }
-  return `Currently serving ${katzDeliLine.shift()}.`;
+  return `Currently serving ${katzDeliLine}.`;
 }
 
 function currentLine(katzDeliLine) {
