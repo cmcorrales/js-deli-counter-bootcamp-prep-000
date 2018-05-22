@@ -1,6 +1,6 @@
 let katzDeliLine = [];
 
-let count = 0;
+var count = 0;
 let numberLine = [];
 
 function takeANumber(katzDeliLine) {
