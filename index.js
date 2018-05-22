@@ -1,7 +1,8 @@
 let katzDeliLine = [];
 
+let count = 0;
+
 function takeANumber(katzDeliLine) {
-  let count;
   count++;
   return `Welcome, you are number ${count}`;
 }
