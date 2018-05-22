@@ -2,6 +2,7 @@ let katzDeliLine = [];
 
 var count = 0;
 
+
 function takeANumber(katzDeliLine) {
   count++;
   katzDeliLine.push(count);
